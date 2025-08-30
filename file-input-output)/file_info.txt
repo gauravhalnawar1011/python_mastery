@@ -1,0 +1,30 @@
+# Random Access Memory (RAM) is volatile, meaning all its contents are lost once the program terminates. 
+# To persist (store) data permanently, we use files.
+#
+# A file is simply data stored on a storage device. 
+# A Python program can interact with files by reading from them or writing to them. 
+#
+# Volatile memory = temporary (data is erased when power is off, e.g., RAM).  
+# Non-volatile memory = permanent storage (HDD, SSD, pendrive, SD card). 
+# In RAM, data is only temporarily loaded while a program is running. 
+#
+# Types of files:
+# 1. Text files (.txt, .csv, .py, etc.)
+# 2. Binary files (.jpg, .dat, .exe, etc.)
+
+
+# 📂 Text vs Binary Files in Python
+
+# Text Files:
+# - Stores data in human-readable characters (UTF-8, ASCII, etc.)
+# - Examples: .txt, .csv, .py, .html
+# - When to use: Saving logs, configs, source code, simple structured data
+#
+# Binary Files:
+# - Stores data in machine-readable format (0s and 1s)
+# - Examples: .jpg, .png, .mp3, .exe, .dat
+# - When to use: Images, audio, video, compiled programs, custom formats
+
+# 🔑 Key Difference:
+# Text files = human-readable ✅
+# Binary files = machine-readable ⚡
